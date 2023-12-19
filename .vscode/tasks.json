@@ -6,7 +6,12 @@
         {
             "label": "Gorun",
             "type": "shell",
-            "command": "go run main.go < input.txt > output.txt 2> output.txt"
+            "command": "echo > output.txt; go run main.go < input.txt > output.txt 2> output.txt"
+        },
+        {
+            "label": "GenerateTestCase",
+            "type": "shell",
+            "command": "echo > input.txt; go run randomTestcaseGenerator/testcase.go > input.txt 2> input.txt "
         }
     ]
 }

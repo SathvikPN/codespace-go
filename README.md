@@ -11,6 +11,11 @@ Set Keybindings
         "key": "shift+enter",
         "command": "workbench.action.tasks.runTask",
         "args": "Gorun"
+    },
+    {
+        "key": "shift+space",
+        "command": "workbench.action.tasks.runTask",
+        "args": "GenerateTestCase"
     }
 ]
 ```
