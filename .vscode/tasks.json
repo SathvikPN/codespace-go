@@ -1,0 +1,12 @@
+{
+    // [DOC]
+    // vscode command palette > Tasks: Run Tasks > Configure a task > Create tasks.json from template > Others
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Gorun",
+            "type": "shell",
+            "command": "go run main.go < input.txt > output.txt 2> output.txt"
+        }
+    ]
+}
